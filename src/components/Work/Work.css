@@ -1,0 +1,12 @@
+.Work {
+}
+
+.WorkContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 30px 100px 30px;
+  justify-content: center;
+}
+
+
