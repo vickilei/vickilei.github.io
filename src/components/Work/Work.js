@@ -20,7 +20,7 @@ class Work extends Component {
             projectImage={foodshareTemp}
           />
         </a>
-        <a href="https://github.com/vickilei/portfolio"
+        <a href="https://github.com/vickilei/vickilei.github.io"
             target="_blank"> 
           <Project
             projectTitle="Personal Website"
