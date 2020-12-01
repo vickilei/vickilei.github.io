@@ -1,21 +1,50 @@
 .ProjectContainer {
-  margin: 25px 50px;
+  margin: 25px 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
+.ProjectContent {
+  position: relative;
+  height: 300px;
+  width: 500px;
+}
+
+.ProjectOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(253, 253, 253, 1);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+}
+
 .ProjectTitle {
   font-family: Lato-Bold;
   color: #000000;
+  font-size: 25px;
 }
 
 .ProjectDescription {
   font-family: Lato-Regular;
-  color: #696969;
+  color: #000000;
 }
 
-.ProjectImage:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=40);
+.ProjectImage {
+  width: 500px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.ProjectContent:hover .ProjectOverlay {
+  visibility: visible;
+  opacity: 0.95;
+  /* filter: alpha(opacity=40); */
 }
