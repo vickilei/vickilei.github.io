@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa4dafa6.chunk.css",
+    "main.js": "/static/js/main.1b0408a4.chunk.js",
+    "main.js.map": "/static/js/main.1b0408a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.771cb9c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.771cb9c1.js.map",
+    "static/js/2.c920a01a.chunk.js": "/static/js/2.c920a01a.chunk.js",
+    "static/js/2.c920a01a.chunk.js.map": "/static/js/2.c920a01a.chunk.js.map",
+    "static/js/3.0bd600a1.chunk.js": "/static/js/3.0bd600a1.chunk.js",
+    "static/js/3.0bd600a1.chunk.js.map": "/static/js/3.0bd600a1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fa4dafa6.chunk.css.map": "/static/css/main.fa4dafa6.chunk.css.map",
+    "static/js/2.c920a01a.chunk.js.LICENSE.txt": "/static/js/2.c920a01a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Lato-Regular.9919edff.ttf",
+    "static/media/behance.97833b2f.png": "/static/media/behance.97833b2f.png",
+    "static/media/cat.b6ff5d5a.png": "/static/media/cat.b6ff5d5a.png",
+    "static/media/computer.9048a99c.png": "/static/media/computer.9048a99c.png",
+    "static/media/foodshareTemp.95aa3a92.png": "/static/media/foodshareTemp.95aa3a92.png",
+    "static/media/github.88b0a55c.png": "/static/media/github.88b0a55c.png",
+    "static/media/seattleHeadshot.dbf808ab.png": "/static/media/seattleHeadshot.dbf808ab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.771cb9c1.js",
+    "static/js/2.c920a01a.chunk.js",
+    "static/css/main.fa4dafa6.chunk.css",
+    "static/js/main.1b0408a4.chunk.js"
+  ]
+}
