@@ -12,19 +12,25 @@ class Work extends Component {
   render() {
     return (
       <div className="WorkContainer">
-        <a href="https://www.behance.net/gallery/88856351/FoodShare"
-            target="_blank">
+        <a
+          href="https://www.behance.net/gallery/88856351/FoodShare"
+          target="_blank"
+        >
           <Project
             projectTitle="FoodShare"
-            projectDescription="Decreasing Food Waste in College Campuses"
+            projectTools="Figma, Adobe Illustrator"
+            projectDescription="Designed and iterated on a mobile app that helps college students reduce their food waste by sharing with others."
             projectImage={foodshareTemp}
           />
         </a>
-        <a href="https://github.com/vickilei/vickilei.github.io"
-            target="_blank"> 
+        <a
+          href="https://github.com/vickilei/vickilei.github.io"
+          target="_blank"
+        >
           <Project
             projectTitle="Personal Website"
-            projectDescription="A Perpetual Work in Progress"
+            projectTools="React, CSS"
+            projectDescription="You're looking at it! Built an online portfolio to showcase my projects. This is a perpetual work in progress."
             projectImage={portfolioTemp}
           />
         </a>

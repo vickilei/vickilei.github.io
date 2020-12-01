@@ -10,6 +10,10 @@ class Project extends Component {
           <img className="ProjectImage" src={this.props.projectImage} />
           <div className="ProjectOverlay">
             <h3 className="ProjectTitle">{this.props.projectTitle}</h3>
+            <p className="ProjectTools">
+              {this.props.projectTools}
+            </p>
+            <br />
             <p className="ProjectDescription">
               {this.props.projectDescription}
             </p>
