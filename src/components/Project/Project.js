@@ -8,7 +8,7 @@ class Project extends Component {
       <div className="ProjectContainer">
         <div className="ProjectContent">
           <img className="ProjectImage" src={this.props.projectImage} />
-          <div className="projectOverlay">
+          <div className="ProjectOverlay">
             <h3 className="ProjectTitle">{this.props.projectTitle}</h3>
             <p className="ProjectDescription">
               {this.props.projectDescription}
